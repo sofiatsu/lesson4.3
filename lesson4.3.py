@@ -1,4 +1,6 @@
-lst_a = [1, 6, 3, 4, 5, 7, 4]
+import random
+lst = [random.randint(1,10) for num in range(random.randint(3,10))]
+print(lst)
 
-lst_b = [lst_a[0], lst_a[2], lst_a[-2]]
-print(lst_b)
+new_lst = list[lst[0], lst[2], lst[-2]]
+print(new_lst)
